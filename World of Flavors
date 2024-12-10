@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World of Flavors</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>World of Flavors</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#recipes">Recipes</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to World of Flavors</h2>
+        <p>Explore diverse cuisines and discover the stories behind delicious dishes from around the globe.</p>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are passionate about bringing the world of food closer to you. Whether you're a home chef or a food enthusiast, you'll find something to savor here.</p>
+    </section>
+
+    <section id="recipes">
+        <h2>Featured Recipes</h2>
+        <div class="recipe">
+            <h3>Spaghetti Carbonara</h3>
+            <p>A classic Italian dish made with eggs, cheese, pancetta, and pepper.</p>
+        </div>
+        <div class="recipe">
+            <h3>Chicken Tikka Masala</h3>
+            <p>A flavorful Indian curry with marinated chicken cooked in a creamy tomato sauce.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions or suggestions? We'd love to hear from you!</p>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message"></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 World of Flavors. All rights reserved.</p>
+    </footer>
+</body>
+</html>
